@@ -1,3 +1,33 @@
+#host-any-app-to-AWS-using-CI-CD-pipeline
+
+- Created a React Project
+- Pushed Project to Github
+- Created Amazon ECR repository
+- Created ECS
+  - Created task definition
+  - Created container definition
+- Created cluster ReactCluster
+  - Create cluster template
+  - EC2 instance type - t2.micro
+  - Launched cluster
+- Create service ReactService
+- Created user react-app
+- Configured Github Actions
+  - Added AWS Secrets
+- Copied Github Actions Workflow to Existing Project
+- Copied task definitions to Github project
+- Created Dockerfile
+- Created Github Action Deploy to Amazon ECS
+
+
+
+
+
+
+
+
+Using https://sagarkudu.medium.com/host-any-app-to-aws-and-github-using-continuous-deployment-ci-cd-pipeline-step-by-step-d4150dbee2e8
+================================================
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
